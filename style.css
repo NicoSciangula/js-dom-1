@@ -1,3 +1,13 @@
-.my-css-img{
-    width: 200px;
+.my-css-img {
+  width: 200px;
 }
+.light-on {
+  display: none;
+}
+.toggle-lamp{
+    display: inline-block;
+}
+.light-off{
+    display: none;
+}
+
