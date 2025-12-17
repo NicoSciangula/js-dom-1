@@ -5,5 +5,8 @@ const lightOff = document.querySelector(".lamp");
 btn.addEventListener("click", () => {
   lightOn.classList.add("toggle-lamp");
   lightOff.classList.add("light-off");
+  textOff();
 });
+
+const textOff = () => (btn.textContent = "Spengi");
 
